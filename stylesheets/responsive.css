@@ -1,6 +1,5 @@
 @media only screen and (min-device-width: 700px) and (max-device-width: 1024px) {
     .screen1 {
-        /* display: flex; */
         position: relative;
         width: 100vw;
         height: 80vh;
@@ -350,7 +349,7 @@
     }
 
 
-}
+
 
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 700px) {
@@ -667,9 +666,6 @@
         position: relative;
         width: 100vw;
         height: 70vw;   
-        /* display: flex; */
-        /* margin-top: auto;
-        margin-bottom: auto; */
     }
 
     .lettering-mob {
@@ -687,15 +683,12 @@
     }
 
     .right-block-s3 {
-        /* overflow: hidden; */
         top: -10vw;
         position: relative;
         width: 100vw;
         height: 120vw;   
         display: flex;
         justify-content: center;
-        /* margin-top: auto;
-        margin-bottom: auto; */
     }
 
     .change-patterns {
@@ -761,5 +754,5 @@
 
 
 
-}
+
 

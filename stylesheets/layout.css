@@ -287,6 +287,13 @@
     height: 54vw; 
 }
 
+.lettering-mob {
+    display: none;
+    overflow: hidden;
+    width: 40vw;
+    height: 54vw; 
+}
+
 .right-block-s3 {
     /* overflow: hidden; */
     position: relative;

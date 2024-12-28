@@ -242,7 +242,7 @@
         display: flex;
         flex-direction: column;
         width: 100vw;
-        height: 165vw;
+        height: 200vw;
         overflow: hidden;
         background-image: url(../img/transparent-bg.svg);
     }
@@ -324,17 +324,17 @@
         overflow: hidden;
         position: relative;
         width: 100vw;
-        height: 200vw;   
+        height: 70vw;   
         /* display: flex; */
-        margin-top: auto;
-        margin-bottom: auto;
+        /* margin-top: auto;
+        margin-bottom: auto; */
     }
 
     .lettering-mob {
         display: block;
         overflow: visible;
         width: 80vw;
-        height: 100vw;
+        height: 70vw;
         position: absolute; 
     }
 
@@ -342,6 +342,74 @@
 
     .lettering-pad {
         display: none;
+    }
+
+    .right-block-s3 {
+        /* overflow: hidden; */
+        top: -10vw;
+        position: relative;
+        width: 100vw;
+        height: 120vw;   
+        display: flex;
+        justify-content: center;
+        /* margin-top: auto;
+        margin-bottom: auto; */
+    }
+
+    .change-patterns {
+        overflow: hidden;
+          position: relative;
+          top: 7vw;
+          width: 90vw;
+          height: 120vw;
+          background-image: url(../img/change-pattern-anim.svg);
+          background-position: 0 0;
+          background-repeat: no-repeat;
+          background-size: 540vw, 100vw;
+          animation: change 3s steps(1) infinite;
+      }
+
+      @keyframes change {
+        0% {
+            background-position: 0 0,
+        }
+        15% {
+            background-position: -90vw 0;
+        }
+        35% {
+            background-position: -180vw 0;
+        }
+        50% {
+            background-position: -270vw 0;
+        } 
+        65%  {
+            background-position: -360vw 0;
+        }
+        80%  {
+            background-position: -450vw 0;
+        }
+        100%  {
+            background-position: -540vw 0;
+        }
+        }
+
+        .screen4 {
+            display: flex;
+            width: 100vw;
+            height: 150vw;
+            overflow: hidden;
+            background-color: black;
+            flex-wrap: wrap;
+        }
+
+        .t-box,.r-box,
+        .y-box,
+        .n-box,
+        .o-box,
+        .w-box {
+            width: 50vw;
+            height: 50vw;
+        }
     }
 
 

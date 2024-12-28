@@ -1,0 +1,355 @@
+@media only screen and (min-device-width: 700px) and (max-device-width: 1024px) {
+    .lettering {
+        display: block;
+    }
+
+    .lettering-pad {
+        display: none;
+    }
+
+
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 700px) {
+    .lettering {
+        display: none;
+    }
+
+    .lettering-pad {
+        display: block;
+    }
+
+    .screen1 {
+        /* display: flex; */
+        position: relative;
+        width: 100vw;
+        height: 80vh;
+        overflow: hidden;
+        background-color: black;
+    }
+
+    .text-deform {
+        display: none;
+    }
+
+    .text-deform-mob {
+        display: block;
+        position: relative;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 75vw;
+        background-image: url(../img/text-deform-mob.svg);
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: 700vw, 75vw;
+        animation: deform1 1.2s steps(1) infinite;
+    }
+
+    .screen2 {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 165vw;
+        overflow: hidden;
+        background-color: black;
+    }
+
+    .left-block-1 {
+        overflow: hidden;
+        position: relative;
+        width: 100vw;
+        height: 55vw;
+        background-image: url(../img/spray-anim.svg);
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: 1300vw, 55vw;
+        animation: cleaning 1.2s steps(1) infinite;
+    }
+
+    @keyframes cleaning {
+            0% {
+                background-position: 0 0,
+            }
+            8% {
+                background-position: -100vw 0;
+            }
+            16% {
+                background-position: -200vw 0;
+            }
+            24% {
+                background-position: -300vw 0;
+            } 
+            32%  {
+                background-position: -400vw 0;
+            }
+            40%  {
+                background-position: -500vw 0;
+            }
+            48%  {
+                background-position: -600vw 0;
+            }
+            56%  {
+                background-position: -700vw 0;
+            }
+            64%  {
+                background-position: -800vw 0;
+            }
+            72%  {
+                background-position: -900vw 0;
+            }
+            80%  {
+                background-position: -1000vw 0;
+            }
+            88%  {
+                background-position: -1100vw 0;
+            }
+            96%  {
+                background-position: -1200vw 0;
+            }
+            100%  {
+                background-position: -1300vw 0;
+            }
+    }
+
+    .right-block {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 110vw;
+    }
+
+    .block-2 {
+        overflow: hidden;
+        position: relative;
+        width: 100vw;
+        height: 55vw;
+        background-image: url(../img/optic-fiber2.svg);
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: 700vw, 55vw;
+        animation: wawing 1s steps(1) infinite;
+    }
+
+    @keyframes wawing {
+        0% {
+            background-position: 0 0,
+        }
+        14% {
+            background-position: -100vw 0;
+        }
+        28% {
+            background-position: -200vw 0;
+        }
+        42% {
+            background-position: -300vw 0;
+        } 
+        56%  {
+            background-position: -400vw 0;
+        }
+        70%  {
+            background-position: -500vw 0;
+        }
+        84%  {
+            background-position: -600vw 0;
+        }
+        100%  {
+            background-position: -700vw 0;
+        }
+    }
+
+    .bubbleblock2 {
+        position: absolute;
+        width: 30vw;
+        height: 20vw;
+        bottom: 5vw;
+        left: 4vw;
+    }
+
+    .bubbleblock3 {
+        position: absolute;
+        width: 30vw;
+        height: 20vw;
+        bottom: 5vw;
+        left: 2vw;
+    }
+
+    .block-3 {
+        overflow: hidden;
+        position: relative;
+        width: 100vw;
+        height: 55vw;
+        background-image: url(../img/genegative.svg);
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: 1400vw, 55vw;
+        animation: generic 1s steps(1) infinite;
+    }
+
+    @keyframes generic {
+        0% {
+            background-position: 0 0,
+        }
+        6% {
+            background-position: -100vw 0;
+        }
+        12% {
+            background-position: -200vw 0;
+        }
+        20% {
+            background-position: -300vw 0;
+        } 
+        26%  {
+            background-position: -400vw 0;
+        }
+        34%  {
+            background-position: -500vw 0;
+        }
+        40%  {
+            background-position: -600vw 0;
+        }
+        48%  {
+            background-position: -700vw 0;
+        }
+        56%  {
+            background-position: -800vw 0;
+        }
+        64%  {
+            background-position: -900vw 0;
+        }
+        72%  {
+            background-position: -1000vw 0;
+        }
+        80%  {
+            background-position: -1100vw 0;
+        }
+        88%  {
+            background-position: -1200vw 0;
+        }
+        95%  {
+            background-position: -1300vw 0;
+        } 
+        100%  {
+            background-position: -1400vw 0;
+        } 
+    }
+
+    .screen3 {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 165vw;
+        overflow: hidden;
+        background-image: url(../img/transparent-bg.svg);
+    }
+
+    .purple-paint {
+        overflow: hidden;
+        position: absolute;
+        top: 10vw;
+        left: -20vw;
+        width: 80vw;
+        height: 80vw;
+        background-image: url(../img/Frame\ 131.svg);
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: 400vw, 80vw;
+        animation: paint 1s steps(1) infinite;
+    }
+
+    @keyframes paint {
+        0% {
+            background-position: 0 0,
+        }
+        20% {
+            background-position: -80vw 0;
+        }
+        40% {
+            background-position: -160vw 0;
+        }
+        60% {
+            background-position: -240vw 0;
+        } 
+        80%  {
+            background-position: -320 0;
+        }
+        100%  {
+            background-position: -400vw 0;
+        }
+    }
+
+    .green-paint {
+        overflow: hidden;
+        position: absolute;
+        left: 50vw;
+        top: 40vw;
+        width: 100vw;
+        height: 100vw;
+        background-image: url(../img/green-paint-anim.svg);
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        background-size: 600vw, 150vw;
+        animation: paint2 1s steps(1) infinite;
+    }
+
+    @keyframes paint2 {
+        0% {
+            background-position: 0 0,
+        }
+        15% {
+            background-position: -100vw 0;
+        }
+        35% {
+            background-position: -200vw 0;
+        }
+        50% {
+            background-position: -300vw 0;
+        } 
+        65%  {
+            background-position: -400vw 0;
+        }
+        80%  {
+            background-position: -500vw 0;
+        }
+        100%  {
+            background-position: -600vw 0;
+        }
+    }
+
+    .left-block-s3 {
+        overflow: hidden;
+        position: relative;
+        width: 100vw;
+        height: 200vw;   
+        /* display: flex; */
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .lettering-mob {
+        display: block;
+        overflow: visible;
+        width: 80vw;
+        height: 100vw;
+        position: absolute; 
+    }
+
+
+
+    .lettering-pad {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+}
+

@@ -1,0 +1,418 @@
+.circle-2 {
+    animation: rotate 1s steps(1) infinite alternate, moveX 3s linear 0s infinite alternate, moveY 7.5s linear 0s infinite alternate;
+}
+
+@keyframes moveX {from {left: 0vw;} to {left: 100vw;}}
+@keyframes moveY {from {top: 0;} to {top: 33vh;}}
+
+.circle-2:hover {
+    animation-play-state: paused;
+}
+
+.circle-c{
+    animation: moveX 1.7s linear 0s infinite alternate, moveY 10s linear 0s infinite alternate;
+}
+
+@keyframes moveX {from {left: 0vw;} to {left: 100vw;}}
+@keyframes moveY {from {top: -40vh;} to {top: 33vh;}}
+
+.circle-u{
+    animation: moveX 2s linear 0s infinite alternate, moveY 7s linear 0s infinite alternate;
+}
+
+@keyframes moveX {from {left: 0vw;} to {left: 100vw;}}
+@keyframes moveY {from {top: 0vh;} to {top: 33vh;}}
+
+.circle-s{
+    animation: moveX 1.3s linear 0s infinite alternate, moveY 9s linear 0s infinite alternate;
+}
+
+@keyframes moveX {from {left: 0vw;} to {left: 100vw;}}
+@keyframes moveY {from {top: 0vh;} to {top: 33vh;}}
+
+.circle-t{
+    animation: moveX 1.5s linear 0s infinite alternate, moveY 8s linear 0s infinite alternate; 
+}
+
+@keyframes moveX {from {left: 0vw;} to {left: 100vw;}}
+@keyframes moveY {from {top: 0vh;} to {top: 33vh;}}
+
+.circle-tp-1{
+    animation: moveX 1.8s linear 0s infinite alternate, moveY 7s linear 0s infinite alternate; 
+}
+
+@keyframes moveX {from {left: 0vw;} to {left: 100vw;}}
+@keyframes moveY {from {top: 0vh;} to {top: 33vh;}}
+
+.circle-tp-2 {
+    animation: moveX 1.2s linear 0s infinite alternate, moveY 8s linear 0s infinite alternate; 
+}
+
+@keyframes moveX {from {left: 0vw;} to {left: 100vw;}}
+@keyframes moveY {from {top: 0vh;} to {top: 33vh;}}
+
+.circle-tp-3 {
+    animation: moveX 1.7s linear 0s infinite alternate, moveY 10s linear 0s infinite alternate; 
+}
+
+@keyframes moveX {from {left: 0vw;} to {left: 100vw;}}
+@keyframes moveY {from {top: 0vh;} to {top: 33vh;}}
+
+.circle-tp-4 {
+    animation: moveX 1.4s linear 0s infinite alternate, moveY 11s linear 0s infinite alternate; 
+}
+
+@keyframes moveX {from {left: 0vw;} to {left: 100vw;}}
+@keyframes moveY {from {top: 0vh;} to {top: 33vh;}}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+
+}
+
+@keyframes deform {
+    0% {
+        background-position: 0 0,
+    }
+    20% {
+        background-position: -100vw 0;
+    }
+    40% {
+        background-position: -200vw 0;
+    }
+    60% {
+        background-position: -300vw 0;
+    } 
+    80%  {
+        background-position: -400vw 0;
+    }
+}
+
+@keyframes deform1 {
+    0% {
+        background-position: 0 0,
+    }
+    14% {
+        background-position: -100vw 0;
+    }
+    28% {
+        background-position: -200vw 0;
+    }
+    42% {
+        background-position: -300vw 0;
+    } 
+    56%  {
+        background-position: -400vw 0;
+    }
+    70%  {
+        background-position: -500vw 0;
+    }
+    84%  {
+        background-position: -600vw 0;
+    }
+    100%  {
+        background-position: -700vw 0;
+    }
+}
+
+@keyframes cleaning {
+    0% {
+        background-position: 0 0,
+    }
+    8% {
+        background-position: -58vw 0;
+    }
+    16% {
+        background-position: -116vw 0;
+    }
+    24% {
+        background-position: -174vw 0;
+    } 
+    32%  {
+        background-position: -232vw 0;
+    }
+    40%  {
+        background-position: -290vw 0;
+    }
+    48%  {
+        background-position: -348vw 0;
+    }
+    56%  {
+        background-position: -406vw 0;
+    }
+    64%  {
+        background-position: -464vw 0;
+    }
+    72%  {
+        background-position: -522vw 0;
+    }
+    80%  {
+        background-position: -580vw 0;
+    }
+    88%  {
+        background-position: -638vw 0;
+    }
+    96%  {
+        background-position: -696vw 0;
+    }
+    100%  {
+        background-position: -754vw 0;
+    }
+}
+
+@keyframes wawing {
+    0% {
+        background-position: 0 0,
+    }
+    14% {
+        background-position: -42vw 0;
+    }
+    28% {
+        background-position: -84vw 0;
+    }
+    42% {
+        background-position: -126vw 0;
+    } 
+    56%  {
+        background-position: -168vw 0;
+    }
+    70%  {
+        background-position: -210vw 0;
+    }
+    84%  {
+        background-position: -252vw 0;
+    }
+    100%  {
+        background-position: -294vw 0;
+    }
+}
+
+@keyframes generic {
+    0% {
+        background-position: 0 0,
+    }
+    6% {
+        background-position: -42vw 0;
+    }
+    12% {
+        background-position: -84vw 0;
+    }
+    20% {
+        background-position: -126vw 0;
+    } 
+    26%  {
+        background-position: -168vw 0;
+    }
+    34%  {
+        background-position: -210vw 0;
+    }
+    40%  {
+        background-position: -252vw 0;
+    }
+    48%  {
+        background-position: -294vw 0;
+    }
+    56%  {
+        background-position: -336vw 0;
+    }
+    64%  {
+        background-position: -378vw 0;
+    }
+    72%  {
+        background-position: -420vw 0;
+    }
+    80%  {
+        background-position: -462vw 0;
+    }
+    88%  {
+        background-position: -504vw 0;
+    }
+    95%  {
+        background-position: -546vw 0;
+    } 
+    100%  {
+        background-position: -588vw 0;
+    } 
+}
+
+@keyframes paint {
+    0% {
+        background-position: 0 0,
+    }
+    20% {
+        background-position: -30vw 0;
+    }
+    40% {
+        background-position: -60vw 0;
+    }
+    60% {
+        background-position: -90vw 0;
+    } 
+    80%  {
+        background-position: -120 0;
+    }
+    100%  {
+        background-position: -150vw 0;
+    }
+}
+
+@keyframes paint2 {
+    0% {
+        background-position: 0 0,
+    }
+    15% {
+        background-position: -50vw 0;
+    }
+    35% {
+        background-position: -100vw 0;
+    }
+    50% {
+        background-position: -150vw 0;
+    } 
+    65%  {
+        background-position: -200vw 0;
+    }
+    80%  {
+        background-position: -250vw 0;
+    }
+    100%  {
+        background-position: -300vw 0;
+    }
+}
+
+@keyframes change {
+    0% {
+        background-position: 0 0,
+    }
+    15% {
+        background-position: -35vw 0;
+    }
+    35% {
+        background-position: -70vw 0;
+    }
+    50% {
+        background-position: -105vw 0;
+    } 
+    65%  {
+        background-position: -140vw 0;
+    }
+    80%  {
+        background-position: -175vw 0;
+    }
+    100%  {
+        background-position: -210vw 0;
+    }
+}
+
+@keyframes typing {
+    0% {
+        background-position: 0 0,
+    }
+    4% {
+        background-position: -100vw 0;
+    }
+    8% {
+        background-position: -200vw 0;
+    }
+    12% {
+        background-position: -300vw 0;
+    } 
+    16%  {
+        background-position: -400vw 0;
+    }
+    20%  {
+        background-position: -500vw 0;
+    }
+    24%  {
+        background-position: -600vw 0;
+    }
+    28%  {
+        background-position: -700vw 0;
+    }
+    32%  {
+        background-position: -800vw 0;
+    }
+    36%  {
+        background-position: -900vw 0;
+    }
+    40%  {
+        background-position: -1000vw 0;
+    }
+    44%  {
+        background-position: -1100vw 0;
+    }
+    48%  {
+        background-position: -1200vw 0;
+    }
+    52%  {
+        background-position: -1300vw 0;
+    } 
+    56%  {
+        background-position: -1400vw 0;
+    } 
+    70%  {
+        background-position: -1500vw 0;
+    } 
+    74%  {
+        background-position: -1600vw 0;
+    } 
+    78%  {
+        background-position: -1700vw 0;
+    } 
+    82%  {
+        background-position: -1800vw 0;
+    } 
+    86%  {
+        background-position: -1900vw 0;
+    } 
+    90%  {
+        background-position: -2000vw 0;
+    }
+    94%  {
+        background-position: -2100vw 0;
+    }
+    100%  {
+        background-position: -2200vw 0;
+    } 
+}
+
+@keyframes growing {
+    0% {
+        background-position: 0 0,
+    }
+    10% {
+        background-position: -100vw 0;
+    }
+    20% {
+        background-position: -200vw 0;
+    }
+    30% {
+        background-position: -3004vw 0;
+    } 
+    39%  {
+        background-position: -400vw 0;
+    }
+    48%  {
+        background-position: -500vw 0;
+    }
+    58%  {
+        background-position: -600vw 0;
+    }
+    68%  {
+        background-position: -700vw 0;
+    }
+    78%  {
+        background-position: -800vw 0;
+    }
+    88%  {
+        background-position: -900vw 0;
+    }
+    100%  {
+        background-position: -1000vw 0;
+    }
+}

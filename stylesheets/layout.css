@@ -1,0 +1,436 @@
+.body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+/* первый экран */
+.screen1 {
+    /* display: flex; */
+    position: relative;
+    width: 100vw;
+    height: 70vw;
+    overflow: hidden;
+    background-color: black;
+}
+
+
+.circle-2 {
+    position: absolute;
+    left: 1%;
+    top: 15%;
+    width: 17vw;
+    height: 17vw;
+    background-image: url(../img/sphere-2.svg);
+    background-size: 100% 100%;
+    /* animation: rotate 1s steps(1) infinite; */
+}
+
+.circle-c {
+    position: absolute;
+    left: 15%;
+    top: 35%;
+    width: 45vw;
+    height: 45vw;
+    background-image: url(../img/sphere-c.svg);
+    background-size: 100% 100%;
+}
+
+.circle-u {
+    position: absolute;
+    left: 25%;
+    top: 55%;
+    width: 22vw;
+    height: 22vw;
+    background-image: url(../img/sphere-u.svg);
+    background-size: 100% 100%;
+}
+
+.circle-s {
+    position: absolute;
+    left: 55%;
+    top: 55%;
+    width: 20vw;
+    height: 20vw;
+    background-image: url(../img/sphere-s.svg);
+    background-size: 100% 100%;
+}
+
+.circle-t {
+    position: absolute;
+    left: 55%;
+    top: 55%;
+    width: 30vw;
+    height: 30vw;
+    background-image: url(../img/sphere-t.svg);
+    background-size: 100% 100%;
+}
+
+.circle-tp-1 {
+    position: absolute;
+    left: 14%;
+    top: 10%;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 100%;
+    /* background-color: aliceblue; */
+    /* opacity: 20%; */
+    backdrop-filter: blur(2vw);
+    background-size: 100% 100%;
+}
+
+.circle-tp-2 {
+    position: absolute;
+    left: 60%;
+    top: 40%;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 100%;
+    /* background-color: aliceblue; */
+    /* opacity: 20%; */
+    backdrop-filter: blur(2vw);
+    background-size: 100% 100%;
+}
+
+.circle-tp-3 {
+    position: absolute;
+    left: 60%;
+    top: 70%;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 100%;
+    /* background-color: aliceblue; */
+    /* opacity: 20%; */
+    backdrop-filter: blur(2vw);
+    background-size: 100% 100%;
+}
+
+.circle-tp-4 {
+    position: absolute;
+    left: 80%;
+    top: 20%;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 100%;
+    /* background-color: aliceblue; */
+    /* opacity: 20%; */
+    backdrop-filter: blur(2vw);
+    background-size: 100% 100%;
+}
+
+/* разделитель */
+
+.text-deform {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 34vw;
+    background-image: url(../img/text-deform.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 500vw, 34vw;
+    animation: deform 1.2s steps(1) infinite;
+}
+
+.text-deform-mob {
+    display: none;
+}
+
+.screen2 {
+    display: flex;
+    width: 100vw;
+    height: 55vw;
+    overflow: hidden;
+    background-color: black;
+}
+
+.left-block-1 {
+    overflow: hidden;
+    position: relative;
+    width: 58vw;
+    height: 55vw;
+    background-image: url(../img/spray-anim.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 754vw, 55vw;
+}
+
+.left-block-1:hover {
+    animation: cleaning 1.2s steps(1) infinite;
+}
+
+.bubbleblock1 {
+    position: absolute;
+    width: 50vw;
+    height: 10vw;
+    top: 5vh;
+    left: 2vh;
+}
+
+.right-block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 42vw;
+    height: 55vw;
+}
+
+.block-2 {
+    overflow: hidden;
+    position: relative;
+    width: 42vw;
+    height: 30vw;
+    background-image: url(../img/optic-fiber2.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 294vw, 30vw;
+    /* animation: wawing 1s steps(1) infinite; */
+}
+
+.block-2:hover {
+    animation: wawing 0.8s steps(1) infinite;
+}
+
+.bubbleblock2 {
+    position: absolute;
+    width: 20vw;
+    height: 10vw;
+    bottom: 5vh;
+    left: 2vh;
+}
+
+.block-3 {
+    overflow: hidden;
+    position: relative;
+    width: 42vw;
+    height: 25vw;
+    background-image: url(../img/genegative.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 588vw, 25vw;
+    /* animation: generic 1s steps(1) infinite; */
+}
+
+.block-3:hover {
+    animation: generic 1.3s steps(1) infinite;
+}
+
+.bubbleblock3 {
+    position: absolute;
+    width: 20vw;
+    height: 10vw;
+    bottom: 5vh;
+    margin-left: 2vh;
+}
+
+.screen3 {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 57vw;
+    overflow: hidden;
+    background-image: url(../img/transparent-bg.svg);
+}
+
+.purple-paint {
+    overflow: hidden;
+    position: absolute;
+    top: 5vw;
+    left: -10vw;
+    width: 30vw;
+    height: 30vw;
+    background-image: url(../img/Frame\ 131.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 150vw, 30vw;
+    animation: paint 1s steps(1) infinite;
+}
+
+.green-paint {
+    overflow: hidden;
+    position: absolute;
+    bottom: -16vw;
+    left: 10vw;
+    width: 50vw;
+    height: 45vw;
+    background-image: url(../img/green-paint-anim.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 300vw, 50vw;
+    animation: paint2 1s steps(1) infinite;
+}
+
+.left-block-s3 {
+    overflow: hidden;
+    position: relative;
+    width: 50vw;
+    height: 55vw;   
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.lettering {
+    overflow: hidden;
+    width: 40vw;
+    height: 54vw; 
+}
+
+.lettering-pad {
+    display: none;
+    overflow: hidden;
+    width: 40vw;
+    height: 54vw; 
+}
+
+.right-block-s3 {
+    /* overflow: hidden; */
+    position: relative;
+    width: 50vw;
+    height: 55vw;   
+    display: flex;
+    justify-content: center;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+}
+
+.change-patterns {
+  overflow: hidden;
+    position: relative;
+    top: 7vw;
+    width: 35vw;
+    height: 45vw;
+    background-image: url(../img/change-pattern-anim.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 210vw, 45vw;
+    animation: change 3s steps(1) infinite;
+}
+
+.text-typing {
+    position: relative;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 30vw;
+    background-image: url(../img/text-typing.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 2200vw, 34vw;
+    animation: typing 3s steps(1) infinite; 
+    background-color: #8682EF;
+}
+
+.screen4 {
+    display: flex;
+    width: 100vw;
+    height: 66.6vw;
+    overflow: hidden;
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+.t-box {
+    position: relative;
+    width: 33.3vw;
+    height: 33.3vw;
+    background-size: contain;
+    background-image: url(../img/t-box.svg);
+}
+
+.t-box:hover {
+    background-image: url(../img/t-box-hover.svg); 
+}
+
+.r-box {
+    position: relative;
+    width: 33.3vw;
+    height: 33.3vw;
+    background-size: contain;
+    background-image: url(../img/r-box.svg);
+}
+
+.r-box:hover {
+    background-image: url(../img/r-box-hover.svg); 
+}
+
+.y-box {
+    position: relative;
+    width: 33.4vw;
+    height: 33.3vw;
+    background-size: contain;
+    background-image: url(../img/y-box.svg);
+}
+
+.y-box:hover {
+    background-image: url(../img/y-box-hover.svg); 
+}
+
+.n-box {
+    position: relative;
+    width: 33.3vw;
+    height: 33.3vw;
+    background-size: contain;
+    background-image: url(../img/n-box.svg);
+}
+
+.n-box:hover {
+    background-image: url(../img/n-box-hover.svg); 
+}
+
+.o-box {
+    position: relative;
+    width: 33.3vw;
+    height: 33.3vw;
+    background-size: contain;
+    background-image: url(../img/o-box.svg);
+}
+
+.o-box:hover {
+    background-image: url(../img/o-box-hover.svg); 
+}
+
+.w-box {
+    position: relative;
+    width: 33.4vw;
+    height: 33.3vw;
+    background-size: contain;
+    background-image: url(../img/w-box.svg);
+}
+
+.w-box:hover {
+    background-image: url(../img/w-box-hover.svg); 
+}
+
+.footer {
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50vw;
+    background-image: url(../img/download.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 1000vw, 50vw;
+    animation: growing 2s steps(1) infinite; 
+    background-color: #000000;
+}
+
+.qr {
+    margin-left: 35vw;
+    margin-top: 10vw;
+    width: 30vw;
+    height: 30vw;
+    opacity: 0;
+}
+
+.qr:hover {
+    opacity: 1;
+}
